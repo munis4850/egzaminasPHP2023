@@ -18,7 +18,7 @@ function sumaLyginiu(array $numbers): int
     $sum = 0;
     foreach ($numbers as $num){
         if($num % 2 === 0){
-            $suma += $num; // galima ir taip $sum = $sum + $num; panaudojau perspektyvesni buda
+            $suma += $num; // galima ir taip $sum = $sum + $num; panaudojau perspektyvesni buda.
         }
     }
     return $suma;
